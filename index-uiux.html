@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://preline.co/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Masonry - 4 cols using Tailwind CSS for Preline UI, a product of Htmlstream.">
+
+  <meta name="twitter:site" content="@preline">
+  <meta name="twitter:creator" content="@preline">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Masonry - 4 cols using Tailwind CSS | Preline UI, crafted with Tailwind CSS">
+  <meta name="twitter:description" content="Masonry - 4 cols using Tailwind CSS for Preline UI, a product of Htmlstream.">
+  <meta name="twitter:image" content="https://preline.co/assets/img/og-image.png">
+
+  <meta property="og:url" content="https://preline.co/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Preline">
+  <meta property="og:title" content="Masonry - 4 cols using Tailwind CSS | Preline UI, crafted with Tailwind CSS">
+  <meta property="og:description" content="Masonry - 4 cols using Tailwind CSS for Preline UI, a product of Htmlstream.">
+  <meta property="og:image" content="https://preline.co/assets/img/og-image.png">
+
+  <!-- Title -->
+  <title>UI UX Screenshots</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://preline.co/favicon.ico">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Theme Check and Update -->
+  <script>
+    const html = document.querySelector('html');
+    const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+    if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
+    else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
+    else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
+    else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
+  </script>
+
+  <!-- CSS HS -->
+  <link rel="stylesheet" href="https://preline.co/assets/css/main.min.css?v=2.3.0">
+</head>
+
+<body class="dark:bg-neutral-900">
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content">
+    <!-- Clients -->
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div class="gallery" id="gallery"></div>
+         <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+       
+          <!-- <div class="space-y-2">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80" alt="Image Description">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Image Description">
+          </div>
+          <div class="space-y-2">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1668584054131-d5721c515211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="Image Description">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1664574654529-b60630f33fdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="Image Description">
+          </div>
+          <div class="space-y-2">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="Image Description">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+          </div>
+          <div class="space-y-2">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1668869713519-9bcbb0da7171?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80" alt="Image Description">
+            <img class="w-full h-auto object-cover" src="https://images.unsplash.com/photo-1668584054035-f5ba7d426401?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3465&q=80" alt="Image Description">
+          </div>
+        </div>
+      -->
+      </div>
+    </div>
+    <!-- End Clients -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+  
+
+  <script>
+    const images = [
+      { img: "./img/00/screenshot_20220910_181207.png", alt: "screenshot_20220910_181207" },
+      { img: "./img/00/screenshot_20220910_181208.png", alt: "screenshot_20220910_181208" },
+      { img: "./img/00/screenshot_20220910_181211.png", alt: "screenshot_20220910_181211" },
+      { img: "./img/00/screenshot_20220910_194018.png", alt: "screenshot_20220910_194018" },
+      { img: "./img/00/screenshot_20220910_194056.png", alt: "screenshot_20220910_194056" },
+      { img: "./img/00/screenshot_20220910_194101.png", alt: "screenshot_20220910_194101" },
+      { img: "./img/00/screenshot_20220910_194102.png", alt: "screenshot_20220910_194102" },
+      { img: "./img/00/screenshot_20220910_203829.png", alt: "screenshot_20220910_203829" },
+      { img: "./img/00/screenshot_20220915_053035.png", alt: "screenshot_20220915_053035" },
+      { img: "./img/00/screenshot_20220920_002535.png", alt: "screenshot_20220920_002535" },
+      { img: "./img/00/screenshot_20220922_054221.png", alt: "screenshot_20220922_054221" },
+      { img: "./img/00/screenshot_20220925_051744.png", alt: "screenshot_20220925_051744" },
+      { img: "./img/00/screenshot_20220929_222259.png", alt: "screenshot_20220929_222259" },
+      { img: "./img/00/screenshot_20220929_222318.png", alt: "screenshot_20220929_222318" },
+      { img: "./img/00/screenshot_20221001_184423.png", alt: "screenshot_20221001_184423" },
+      { img: "./img/00/screenshot_20221001_185331.png", alt: "screenshot_20221001_185331" },
+      { img: "./img/00/screenshot_20221003_051926.png", alt: "screenshot_20221003_051926" },
+      { img: "./img/00/screenshot_20221003_051938.png", alt: "screenshot_20221003_051938" },
+      { img: "./img/00/screenshot_20221003_052752.png", alt: "screenshot_20221003_052752" },
+      { img: "./img/00/screenshot_20221003_053002.png", alt: "screenshot_20221003_053002" },
+      { img: "./img/00/screenshot_20221003_053029.png", alt: "screenshot_20221003_053029" },
+      { img: "./img/00/screenshot_20221003_053056.png", alt: "screenshot_20221003_053056" },
+      { img: "./img/00/screenshot_20221003_053122.png", alt: "screenshot_20221003_053122" },
+      { img: "./img/00/screenshot_20221003_053134.png", alt: "screenshot_20221003_053134" },
+      { img: "./img/00/screenshot_20221003_061637.png", alt: "screenshot_20221003_061637" },
+      { img: "./img/00/screenshot_20221003_061641.png", alt: "screenshot_20221003_061641" },
+      { img: "./img/00/screenshot_20221003_061651.png", alt: "screenshot_20221003_061651" },
+      { img: "./img/00/screenshot_20221005_131323.png", alt: "screenshot_20221005_131323" }
+    ];
+
+    const gallery = document.getElementById('gallery');
+
+    for (let i = 0; i < images.length; i += 5) {
+      const column1 = document.createElement('div');
+      column1.innerHTML = `
+      <div class="space-y-2"><img class="w-full h-auto object-cover" src="${images[i]?.img}" alt="${images[i]?.alt}">
+      <img class="w-full h-auto object-cover" src="${images[i + 1]?.img}" alt="${images[i + 1]?.alt}"></div>
+      `;
+      gallery.appendChild(column1);
+
+      const column2 = document.createElement('div');
+      column2.innerHTML = `
+        <div class="space-y-2"><img src="${images[i + 2]?.img}" alt="${images[i + 2]?.alt}">
+        <img class="w-full h-auto object-cover" src="${images[i + 3]?.img}" alt="${images[i + 3]?.alt}">
+        <img class="w-full h-auto object-cover" src="${images[i + 4]?.img}" alt="${images[i + 4]?.alt}"></div>
+      `;
+      gallery.appendChild(column2);
+    }
+  </script>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .gallery div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-cover: cover;
+    }
+  </style>
+  <!-- JS Implementing Plugins -->
+
+  <!-- JS PLUGINS -->
+  <!-- Required plugins -->
+  <script src="https://preline.co/assets/vendor/preline/dist/index.js?v=2.3.0"></script>
+
+</body>
+</html>
